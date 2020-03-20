@@ -4,9 +4,9 @@ from sys import exc_info
 import threading
 import os
 
-serverAddress = "buttons.go.ro"
+serverAddress = "serverAddress"
 serverPort = 21
-username = "Silvia"
+username = "User"
 password = ""
 
 class FTPThread (threading.Thread):
